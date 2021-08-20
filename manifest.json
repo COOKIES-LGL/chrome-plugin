@@ -1,0 +1,22 @@
+{
+  "name": "newTab",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "to override the newTab page",
+  "permissions": ["storage", "tabs", "http://*/", "https://*/"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {},
+  "icons": {
+    "16": "images/16_gray.png",
+    "32": "images/32_gray.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newTab/dist/index.html"
+  },
+  "web_accessible_resources": [
+    "newTab/dist/*"
+  ]
+}
