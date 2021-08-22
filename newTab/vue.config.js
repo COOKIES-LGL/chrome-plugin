@@ -1,5 +1,15 @@
 module.exports ={
   publicPath: "/newTab/dist/",
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@icon': require('path').join(
+          __dirname,
+          '.newTab/assets/'
+        ),
+      }
+    },
+  },
   devServer: {
     port: 8080, // 服务开启端口
     open: true, // 自动打开浏览器
