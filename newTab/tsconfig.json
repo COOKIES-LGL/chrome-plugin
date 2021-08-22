@@ -20,9 +20,6 @@
       "@/*": [
         "src/*"
       ],
-      "@icon": [
-        "src/assets/svg"
-      ]
     },
     "lib": [
       "esnext",

@@ -21,7 +21,7 @@ export const SearchTabList = [
         {
           label: 'StackOverflow',
           holdplace: 'result from stack overflow',
-          url: '',
+          url: 'https://stackoverflow.com/search?q=',
         },
         {
           label: '360搜索',
