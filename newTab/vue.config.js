@@ -7,6 +7,10 @@ module.exports ={
           __dirname,
           '.newTab/assets/'
         ),
+        '@/': require('path').join(
+          __dirname,
+          'src/'
+        ),
       }
     },
   },
